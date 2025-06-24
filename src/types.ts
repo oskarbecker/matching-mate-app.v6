@@ -1,0 +1,1 @@
+export type RelationshipType = 'hetero' | 'gay' | 'lesbian';

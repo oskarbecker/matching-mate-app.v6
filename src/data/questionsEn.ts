@@ -1,0 +1,91 @@
+export type Question = {
+  id: string;
+  text: string;
+  points: number;
+};
+
+export const questionsHeteroMannEn: Question[] = [
+  { id: 'a', text: 'Full hair', points: 2.5 },
+  { id: 'b', text: 'Athletic build (incl. nice butt)', points: 2.5 },
+  { id: 'c', text: 'Taller than desired woman/women', points: 2.5 },
+  { id: 'd', text: 'Strong jawline', points: 2.5 },
+  { id: 'e', text: 'Strong chin', points: 2.5 },
+  { id: 'f', text: 'Well-groomed appearance (no cosmetics, no excessive body hair)', points: 2.5 },
+  { id: 'g', text: 'Styling (elegant, e.g. well-fitting suit)', points: 2.5 },
+  { id: 'h', text: 'Full, sensual lips', points: 2.5 },
+  { id: 'i', text: 'Not too short legs', points: 2.5 },
+  { id: 'j', text: 'Strong hands', points: 2.5 },
+  { id: 'k', text: 'V-shape of upper body', points: 2.5 },
+  { id: 'l', text: 'Rather small eyes (preferably blue)', points: 2.5 },
+  { id: 'm', text: 'Financial independence – rich or wealthy', points: 10 },
+  { id: 'n', text: 'Social status – popular with women and men', points: 6 },
+  { id: 'o', text: 'Self-confidence – especially in appearance & bed', points: 5 },
+  { id: 'p', text: 'Intelligence – wit & education', points: 4 },
+  { id: 'q', text: 'Conversational skills – capable of small talk (but not chatty)', points: 2 },
+  { id: 'r', text: 'Attention – interested & present', points: 2 },
+  { id: 's', text: 'Age – older than the desired woman', points: 1 },
+];
+
+export const questionsHeteroFrauEn: Question[] = [
+  { id: 'a', text: 'Naturalness (cosmetics, but not too much)', points: 2.5 },
+  { id: 'b', text: 'Full hair', points: 2.5 },
+  { id: 'c', text: 'Large eyes', points: 2.5 },
+  { id: 'd', text: 'Full, sensual lips', points: 2.5 },
+  { id: 'e', text: 'Narrower chin', points: 2.5 },
+  { id: 'f', text: 'Firm, well-shaped breasts and nice butt', points: 2.5 },
+  { id: 'g', text: 'Slim waist', points: 2.5 },
+  { id: 'h', text: 'Long legs', points: 2.5 },
+  { id: 'i', text: 'No wrinkles', points: 2.5 },
+  { id: 'j', text: 'Little fat (but not anorexic)', points: 2.5 },
+  { id: 'k', text: 'Smaller than the desired man', points: 2.5 },
+  { id: 'l', text: 'Styling (attractive look, but not vulgar, cheap)', points: 2.5 },
+  { id: 'm', text: 'Independence – own goals, educated, self-reliant', points: 2 },
+  { id: 'n', text: 'Not confrontational – gives the man his peace', points: 5 },
+  { id: 'o', text: 'Desire for sex – especially at the beginning of the relationship', points: 7 },
+  { id: 'p', text: 'Conversational skills – capable of small talk', points: 3 },
+  { id: 'r', text: 'Not chatty – can also listen', points: 4 },
+  { id: 's', text: 'Shared interests with man – common hobbies etc.', points: 1 },
+  { id: 't', text: 'Younger age – younger than the desired man', points: 8 },
+];
+
+export const questionsGayMannEn: Question[] = [
+  { id: 'a', text: 'Full hair', points: 2.5 },
+  { id: 'b', text: 'Athletic build (incl. nice butt)', points: 2.5 },
+  { id: 'c', text: 'Taller than desired partner', points: 2.5 },
+  { id: 'd', text: 'Strong jawline', points: 2.5 },
+  { id: 'e', text: 'Strong chin', points: 2.5 },
+  { id: 'f', text: 'Well-groomed appearance (no cosmetics, no excessive body hair)', points: 2.5 },
+  { id: 'g', text: 'Styling (elegant, e.g. well-fitting suit)', points: 2.5 },
+  { id: 'h', text: 'Full, sensual lips', points: 2.5 },
+  { id: 'i', text: 'Not too short legs', points: 2.5 },
+  { id: 'j', text: 'Strong hands', points: 2.5 },
+  { id: 'k', text: 'V-shape of upper body', points: 2.5 },
+  { id: 'l', text: 'Rather small eyes (preferably blue)', points: 2.5 },
+  { id: 'm', text: 'Financial independence – rich or wealthy', points: 10 },
+  { id: 'n', text: 'Social status – popular with others', points: 6 },
+  { id: 'o', text: 'Self-confidence – especially in appearance & bed', points: 5 },
+  { id: 'p', text: 'Intelligence – wit & education', points: 4 },
+  { id: 'q', text: 'Conversational skills – capable of small talk (but not chatty)', points: 2 },
+  { id: 'r', text: 'Attention – interested & present', points: 2 },
+];
+
+export const questionsLesbischFrauEn: Question[] = [
+  { id: 'a', text: 'Naturalness (cosmetics, but not too much)', points: 2.5 },
+  { id: 'b', text: 'Full hair', points: 2.5 },
+  { id: 'c', text: 'Large eyes', points: 2.5 },
+  { id: 'd', text: 'Full, sensual lips', points: 2.5 },
+  { id: 'e', text: 'Narrower chin', points: 2.5 },
+  { id: 'f', text: 'Firm, well-shaped breasts and nice butt', points: 2.5 },
+  { id: 'g', text: 'Slim waist', points: 2.5 },
+  { id: 'h', text: 'Long legs', points: 2.5 },
+  { id: 'i', text: 'No wrinkles', points: 2.5 },
+  { id: 'j', text: 'Little fat (but not anorexic)', points: 2.5 },
+  { id: 'k', text: 'Smaller than the desired partner', points: 2.5 },
+  { id: 'l', text: 'Styling (attractive look, but not vulgar, cheap)', points: 2.5 },
+  { id: 'm', text: 'Independence – own goals, educated, self-reliant', points: 2 },
+  { id: 'n', text: 'Not confrontational – gives the partner her peace', points: 5 },
+  { id: 'o', text: 'Desire for sex – especially at the beginning of the relationship', points: 7 },
+  { id: 'p', text: 'Conversational skills – capable of small talk', points: 3 },
+  { id: 'r', text: 'Not chatty – can also listen', points: 4 },
+  { id: 's', text: 'Shared interests with partner – common hobbies etc.', points: 1 },
+];
