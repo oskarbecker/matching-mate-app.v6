@@ -81,12 +81,12 @@ export const questionsLesbischFrau: Question[] = [
   { id: 'i', text: 'Keine Falten', points: 2.5 },
   { id: 'j', text: 'Wenig Fett (aber nicht magersüchtig)', points: 2.5 },
   { id: 'k', text: 'Styling (attraktiver Look, jedoch nicht ordinär, billig)', points: 2.5 },
-  { id: 'l', text: 'Eigenständigkeit – eigene Ziele, gebildet, selbstständig', points: 3 },
-  { id: 'm', text: 'Nicht anecken – lässt der Partnerin ihre Ruhe', points: 6 },
-  { id: 'n', text: 'Lust auf Sex – insbesondere zu Beginn der Beziehung', points: 7 },
-  { id: 'o', text: 'Konversationsfähigkeit – Small Talk fähig', points: 4 },
-  { id: 'p', text: 'Keine Geschwätzigkeit – kann auch zuhören', points: 5 },
-  { id: 'q', text: 'Gleichgerichtete Interessen mit Partnerin – gemeinsame Hobbys etc.', points: 4 },
+  { id: 'm', text: 'Eigenständigkeit – eigene Ziele, gebildet, selbstständig', points: 3 },
+  { id: 'n', text: 'Nicht anecken – lässt der Partnerin ihre Ruhe', points: 6 },
+  { id: 'o', text: 'Lust auf Sex – insbesondere zu Beginn der Beziehung', points: 7 },
+  { id: 'p', text: 'Konversationsfähigkeit – Small Talk fähig', points: 4 },
+  { id: 'q', text: 'Keine Geschwätzigkeit – kann auch zuhören', points: 5 },
+  { id: 'r', text: 'Gleichgerichtete Interessen mit Partnerin – gemeinsame Hobbys etc.', points: 4 },
 ];
 
 // Legacy exports for backward compatibility
