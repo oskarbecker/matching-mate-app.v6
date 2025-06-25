@@ -19,8 +19,8 @@ export default function BewertungLesbian1Page({ answers, setAnswers }: Props) {
 
   const questions = language === 'de' ? questionsLesbischFrau : questionsLesbischFrauEn;
   const hotnessCore = questions.slice(0, 7);
-  const hotnessRest = questions.slice(7, 12);
-  const others = questions.slice(12);
+  const hotnessRest = questions.slice(7, 11);
+  const others = questions.slice(11);
 
   const toggle = (id: string) => {
     setAnswers((prev) => ({ ...prev, [id]: !prev[id] }));
